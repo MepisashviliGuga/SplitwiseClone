@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="MassTransit" Version="8.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SplitwiseClone.Core\SplitwiseClone.Domain.csproj" />
+    <ProjectReference Include="..\SplitwiseClone.Persistence\SplitwiseClone.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

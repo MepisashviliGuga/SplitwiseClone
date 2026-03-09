@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SplitwiseClone.Application\SplitwiseClone.Application.csproj" />
+    <ProjectReference Include="..\SplitwiseClone.Persistence\SplitwiseClone.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

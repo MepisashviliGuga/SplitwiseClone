@@ -1,6 +1,0 @@
-@SplitwiseClone.Api_HostAddress = http://localhost:5047
-
-GET {{SplitwiseClone.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
